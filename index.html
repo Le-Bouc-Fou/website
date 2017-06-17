@@ -55,20 +55,35 @@
 			<p class="w3-opacity"><i>La Bouc team</i></p>
 			<p class="w3-center">Vous souhaitez intégrer l'équipe ? envoyer votre demande à <a href="mailto:contact@le-bouc-fou.fr">contact@le-bouc-fou.fr</a></p>
 			<div class="w3-row w3-padding-32">
-			  <div class="w3-third">
+			  <div class="w3-third" style="padding-bottom: 10%">
 				<p>Louis <i>(@loulou123546)</i></p>
-				<img src="loulou123546.png" class="w3-round w3-margin-bottom" alt="louis @loulou123546" style="width:60%">
+				<img src="avatars/loulou123546.png" class="w3-round w3-margin-bottom" alt="louis @loulou123546" style="width:60%">
 				<p><b>Développeur</b></p>
 			  </div>
-			  <div class="w3-third">
+			  <div class="w3-third" style="padding-bottom: 10%">
 				<p>Thibault <i>(@LeBoucFou)</i></p>
-				<img src="leboucfou.png" class="w3-round w3-margin-bottom" alt="Thibault @LeBoucFou" style="width:60%">
-				<p><b>Heu ... ?</b></p>
+				<img src="avatars/leboucfou.png" class="w3-round w3-margin-bottom" alt="Thibault @LeBoucFou" style="width:60%">
+				<p><b>Chef de projets</b></p>
 			  </div>
-			  <div class="w3-third">
+			  <div class="w3-third" style="padding-bottom: 10%">
 				<p>Lucas <i>(@Rotherlaw)</i></p>
-				<img src="rotherlaw.png" class="w3-round w3-margin-bottom" alt="lucas @Rotherlaw" style="width:60%">
+				<img src="avatars/rotherlaw.png" class="w3-round w3-margin-bottom" alt="lucas @Rotherlaw" style="width:60%">
 				<p><b>Graphiste</b></p>
+			  </div>
+				<div class="w3-third" style="padding-bottom: 10%">
+				<p>Imad <i>(@obonhomme)</i></p>
+				<img src="avatars/obonhomme.png" class="w3-round w3-margin-bottom" alt="Imad @obonhomme" style="width:60%">
+				<p><b>Level designeur</b></p>
+			  </div>
+				<div class="w3-third" style="padding-bottom: 10%">
+				<p>??? <i>(@azemazer)</i></p>
+				<img src="avatars/azemazer.png" class="w3-round w3-margin-bottom" alt="??? @azemazer" style="width:60%">
+				<p><b>music manager</b></p>
+			  </div>
+				<div class="w3-third" style="padding-bottom: 10%">
+				<p>Peut-être vous ?</p>
+				<img src="avatars/unknow.jpg" class="w3-round w3-margin-bottom" alt="unknow people" style="width:60%">
+				<p><a href="#contact">Vous shouaitez nous rejoindre ?</a></p>
 			  </div>
 			</div>
 		  </div>
@@ -87,24 +102,67 @@
 					<p><b>Vidéo 200 abos</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">event</span></p>
 					<p>Annonce : Pour la vidéo 200 abonnés, nous recherchons 3 joueurs ...</p>
-					<a href="#contact" class="w3-button w3-margin-bottom w3-hover-teal w3-green">S'inscrire</a>
+					<a onclick="modal('news1')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="news1" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('news1')">&times;</button><h2>Vidéo 200 abonnés !</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">event</span></p>
+							<p>Annonce : Pour la vidéo 200 abonnés, nous recherchons 3 joueurs qui serait disponible pour jouer avec nous sur le jeu "Moonbase Alpha" (gratuit sur steam) le 21/06.</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a href="http://store.steampowered.com/app/39000/Moonbase_Alpha/" target="_blank" onclick="modal('news1')" class="w3-button w3-margin w3-hover-teal w3-green">Voir le jeux sur Steam</a>
+							<a href="#contact" onclick="modal('news1')" class="w3-button w3-margin w3-hover-teal w3-green">Participez à l'évenement</a>
+						</footer>
+					</div>
 				</div>
 				<div class="w3-third w3-margin-bottom">
 				  <div class="w3-container w3-white" style="height:225px;">
 					<p><b>Un serveur discord !</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">social</span></p>
 					<p>Tester en exclu et avant tout le monde le nouveau serveur Discord !</p>
-					<a href="#social" class="w3-button w3-margin-bottom w3-hover-teal w3-green">Voir le Discord</a>
+					<a onclick="modal('news2')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="news2" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('news2')">&times;</button><h2>Un serveur Discord !</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">social</span></p>
+							<p>Le serveur Discord est désormais ouvert à tous, alors venez ! Vous y trouverez des exclu, tel que la démo du site, des extrait de jeux, ou le boss qui s'amuse avec les émojis personnalisé !</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a href="#social" onclick="modal('news2')" class="w3-button w3-margin w3-hover-teal w3-green">Lien d'invitation discord</a>
+						</footer>
+					</div>
 				</div>
 				<div class="w3-third w3-margin-bottom">
 				  <div class="w3-container w3-white" style="height:225px;">
-					<p><b>jobs :  level designer</b></p>
+					<p><b>jobs :  nouveau directeur</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">jobs</span></p>
-					<p>Nous recherchons actuellement un level designer pour ...</p>
-					<a href="#contact" class="w3-button w3-margin-bottom w3-hover-teal w3-green">Proposer votre CV</a>
+					<p>je trouve personnellement qu'on est pas assez payé du coup ...</p>
+					<a onclick="modal('news3')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="news3" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('news3')">&times;</button><h2>Poste de directeur à pourvoir !</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">jobs</span></p>
+							<p>Avec le reste de l'équipe, on trouve que Le Bouc Fou est franchement pénible, et en plus on est même pas payé. Alors si vous pensez être à la hauteur, venez !</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a href="#contact" onclick="modal('news3')" class="w3-button w3-margin w3-hover-teal w3-green">Postulez pour le job !</a>
+						</footer>
+					</div>
 				</div>
 				
 			  </div>
@@ -132,7 +190,13 @@
 					<td><img src="twitter.png" style="height:2em;"></td>
 					<td>Twitter</td>
 					<td>@LeBoucFou_YT</td>
-					<td><a href="https://twitter.com/LeBoucFou_YT" target="_blank">fly, blue bird :)</a></td>
+					<td><a href="https://twitter.com/LeBoucFou_YT" target="_blank">lien du twitter</a></td>
+				</tr>
+				<tr>
+					<td><img src="steam.png" style="height:2em;"></td>
+					<td>Steam</td>
+					<td>Le Bouc Fou</td>
+					<td><a href="http://steamcommunity.com/groups/leboucfou/" target="_blank">rejoins le groupe steam</a></td>
 				</tr>
 			</table></div>
 		  </div>
@@ -150,24 +214,67 @@
 					<p><b>Race master</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">game</span></p>
 					<p>Race Master est un jeu de course avec quelque complication ...</p>
-					<a href="#" class="w3-button w3-margin-bottom w3-hover-teal w3-green">Voir le projet</a>
+					<a onclick="modal('projet1')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="projet1" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('projet1')">&times;</button><h2>Race Master</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">game</span></p>
+							<p>Race Master est un jeu créer par Le Bouc Fou sur Gdevelop et franchement, ça péte sa mère !!!</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a onclick="modal('projet1')" class="w3-button w3-margin w3-hover-teal w3-green">Malheuresement, le jeu n'est jamais sortie</a>
+						</footer>
+					</div>
 				</div>
 				<div class="w3-third w3-margin-bottom">
 				  <div class="w3-container w3-white" style="height:225px;">
 					<p><b>Snakeur</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">game</span></p>
 					<p>Snakeur est un remix du jeu snake, jouable en multijoueur ou solo, ...</p>
-					<a href="#" class="w3-button w3-margin-bottom w3-hover-teal w3-green">Voir le projet</a>
+					<a onclick="modal('projet2')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="projet2" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('projet2')">&times;</button><h2>Snakeur</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">game</span></p>
+							<p>Snakeur, c'est un remix de snake fait à notre façon : chaque niveaux à son style (futuriste, kawaii, ...) Il est actuellement en phase de dévelopement.</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a href="#equipe" onclick="modal('projet2')" class="w3-button w3-margin w3-hover-teal w3-green">Voir l'équipe de dev</a>
+							<a href="#social" onclick="modal('projet2')" class="w3-button w3-margin w3-hover-teal w3-green">Parler avec la Team sur discord</a>
+						</footer>
+					</div>
 				</div>
 				<div class="w3-third w3-margin-bottom">
 				  <div class="w3-container w3-white" style="height:225px;">
 					<p><b>Un site web !</b></p>
 					<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">website</span></p>
 					<p>On travail actuellement sur un site web : <i>le-bouc-fou.fr</i>, permettant ...</p>
-					<a href="le-bouc-fou.fr" class="w3-button w3-margin-bottom w3-hover-teal w3-green">Voir le site</a>
+					<a onclick="modal('projet3')" class="w3-button w3-margin-bottom w3-hover-teal w3-green">En savoir plus</a>
 				  </div>
+				</div>
+				<div id="projet3" class="w3-modal w3-hide">
+					<div class="w3-modal-content w3-card-4">
+						<header class="w3-container w3-center w3-green">
+							<button class="w3-button w3-hover-teal w3-display-topright" onclick="modal('projet3')">&times;</button><h2>Un Mega Génial site web !</h2>
+						</header>
+						<div class="w3-container w3-text-black">
+							<p><span class="w3-border-grey w3-padding-small w3-text-grey w3-border w3-round-xxlarge">website</span></p>
+							<p>Eh ouais, dorénavent vous pourrez trouver tous se dont vous avez besoins sur le site <i><b>le-bouc-fou.fr</b></i> . Vous y trouverez les jeux, les dernière vidéos, des sondages, les nouveautés, ...</p>
+						</div>
+						<footer class="w3-container w3-white w3-center w3-padding">
+							<a href="http://le-bouc-fou.fr" target="_blank" onclick="modal('projet3')" class="w3-button w3-margin w3-hover-teal w3-green">voir le site</a>
+						</footer>
+					</div>
 				</div>
 				
 			  </div>
@@ -200,7 +307,7 @@
 		
 		<!-- Footer -->
 		<footer class="w3-container w3-padding-32 w3-center w3-dark-grey w3-xlarge">
-			<p>Copyright - Le Bouc Fou <i class="fa fa-copyright"></i> 2016 - 2017</p>
+			<p><a href="http://lbf-acceuil.copyright01.com/" style="text-decoration: none;" class="w3-hover-opacity">Copyright - Le Bouc Fou <i class="fa fa-copyright"></i> 2016 - 2017</a></p>
 		</footer>
 
 		<script>
@@ -213,6 +320,16 @@
 				x.className = x.className.replace(" w3-show", "");
 			}
 		}
+
+		function modal (_id) {
+			var y = document.getElementById(_id);
+			if (y.className.indexOf("w3-show") == -1) {
+				y.className += " w3-show";
+			} else { 
+				y.className = y.className.replace(" w3-show", "");
+			}
+		}
+
 		</script>
 	</body>
 </html>
